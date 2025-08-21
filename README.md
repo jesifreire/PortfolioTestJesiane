@@ -108,6 +108,10 @@ Para rodar:
    ```powershell
    k6 run k6/performance.js
    ```
+   ## 🔗 Documentação Criada.
+
+- 📚 [Documentação (Wiki)](https://github.com/jesifreire/PortfolioTestJesiane/wiki)
+- 🐞 [Bugs Reportados](https://github.com/jesifreire/PortfolioTestJesiane/issues)
 
 ## Observações
 
