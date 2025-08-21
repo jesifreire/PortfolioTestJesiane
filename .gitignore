@@ -36,3 +36,30 @@ k6-results.json
 *.swp
 *.swo
 ~*
+# Arquivos pessoais/config do sistema
+.bash_history
+.lesshst
+.emulator_console_auth_token
+.h2.server.properties
+
+# Diretórios de cache/usuário
+.cache/
+.history/
+.idea/
+.vscode/
+
+# Executáveis e binários
+*.exe
+*.dll
+*.pb
+
+# JSONs de configuração local
+installation_id
+onboarding.json
+onboarding.json.lock
+user_settings.pb
+UIHistory*
+versions.json
+
+# Logs extras
+*.log

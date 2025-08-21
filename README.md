@@ -1,20 +1,28 @@
 # FittTest
 
-Aplicação web para registro e acompanhamento de exercícios físicos, com interface moderna, dashboard, CRUD de categorias e exercícios, e API backend documentada via Swagger.
+Aplicação web para registro e acompanhamento de exercícios físicos, com CRUD de categorias e exercícios, e API backend documentada via Swagger.
 
 ## Estrutura de Pastas
+
 
 ```
 FittTest/
 ├── api/                # Backend Node.js/Express (API)
-│   ├── index.js        # Código principal da API
-│   ├── package.json    # Dependências do backend
-│   └── README.txt      # Instruções da API
-├── index.html          # Página única da aplicação web
-├── style.css           # Estilos modernos e responsivos
-├── script.js           # Lógica JS da interface
-├── .gitignore          # Arquivos/pastas ignorados pelo git
-└── README.md           # Este arquivo
+│   ├── index.js
+│   ├── package.json
+│   └── README.txt
+├── cypress/            # Testes automatizados de interface
+│   ├── e2e/
+│   │   └── app.cy.js
+│   ├── videos/         # (ignorado pelo git)
+│   └── screenshots/    # (ignorado pelo git)
+├── k6/                 # Testes de performance da API
+│   └── performance.js
+├── index.html
+├── style.css
+├── script.js
+├── .gitignore
+└── README.md
 ```
 
 ## Tecnologias Utilizadas
