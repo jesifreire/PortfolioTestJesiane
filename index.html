@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FittTest - Exercícios</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importar Chart.js para o gráfico -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Tela de Login/Cadastro -->
+        <div id="auth-container" class="card auth-card">
+            <h2 id="auth-title">Login</h2>
+            <form id="auth-form">
+                <input type="email" id="email" placeholder="E-mail" required>
+                <input type="password" id="password" placeholder="Senha (6 dígitos)" minlength="6" maxlength="6" required>
+                <button type="submit" id="auth-btn">Entrar</button>
+            </form>
+            <p id="toggle-auth">Não tem conta? <a href="#" id="show-register">Cadastre-se</a></p>
+            <p id="auth-error" class="error"></p>
+        </div>
+
+        <!-- Tela Principal -->
+        <div id="main-container" class="hidden">
+            <header class="dashboard-header">
+                <div class="logo">FittTest</div>
+                <div class="user-info">
+                    <span id="user-email"></span>
+                    <button id="logout-btn" title="Sair">⎋</button>
+                </div>
+            </header>
+            <h2 class="dashboard-title">Dashboard</h2>
+            <div class="metrics-row">
+                <div class="metric-card blue">
+                    <div class="metric-title">Exercícios Realizados</div>
+                    <div class="metric-value" id="total-exercises">0</div>
+                </div>
+                <div class="metric-card green">
+                    <div class="metric-title">Tempo Total</div>
+                    <div class="metric-value" id="total-time">0 min</div>
+                </div>
+                <div class="metric-card purple">
+                    <div class="metric-title">Progresso</div>
+                    <div class="metric-value" id="progress-percent">0%</div>
+                </div>
+            </div>
+            <div class="dashboard-main-row">
+                <div class="dashboard-main-col">
+                    <section id="progress-section" class="card">
+                        <h3>Progresso Semanal</h3>
+                        <canvas id="progress-chart" height="160"></canvas>
+                    </section>
+                </div>
+                <div class="dashboard-main-col">
+                    <section id="recent-section" class="card">
+                        <h3>Exercícios Recentes</h3>
+                        <ul id="recent-list"></ul>
+                    </section>
+                </div>
+            </div>
+
+            <div class="dashboard-forms-row">
+                <!-- Registrar Exercício -->
+                <section id="exercise-section" class="card">
+                    <h3>Registrar Exercício</h3>
+                    <form id="exercise-form">
+                        <select id="exercise-select"></select>
+                        <input type="text" id="exercise-name" placeholder="Novo exercício (opcional)">
+                        <select id="category-select"></select>
+                        <select id="difficulty-select">
+                            <option value="Fácil">Fácil</option>
+                            <option value="Médio">Médio</option>
+                            <option value="Difícil">Difícil</option>
+                        </select>
+                        <select id="day-select">
+                            <option value="Dom">Domingo</option>
+                            <option value="Seg">Segunda</option>
+                            <option value="Ter">Terça</option>
+                            <option value="Qua">Quarta</option>
+                            <option value="Qui">Quinta</option>
+                            <option value="Sex">Sexta</option>
+                            <option value="Sab">Sábado</option>
+                        </select>
+                        <input type="number" id="duration" placeholder="Duração (min)" required>
+                        <button type="submit">Registrar</button>
+                    </form>
+                </section>
+
+                <!-- Gerenciar Categorias -->
+                <section id="category-section" class="card">
+                    <h3>Categorias</h3>
+                    <form id="category-form">
+                        <input type="text" id="category-name" placeholder="Nova categoria">
+                        <button type="submit">Adicionar</button>
+                    </form>
+                    <ul id="category-list"></ul>
+                </section>
+
+                <!-- Gerenciar Exercícios -->
+                <!-- Gerenciar Exercícios -->
+            <section id="exercise-manage-section" class="card">
+                <h3>Exercícios</h3>
+                <form id="exercise-manage-form">
+                    <input type="text" id="manage-exercise-name" placeholder="Nome do exercício">
+                    <button type="submit">Adicionar</button>
+                </form>
+                <ul id="exercise-list"></ul>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Importar o script -->
+    <script src="script.js"></script>
+</body>
+</html>
