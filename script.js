@@ -158,7 +158,7 @@ window.addEventListener("DOMContentLoaded", () => {
           datasets: [{
             label: "Duração (min)",
             data: weekData,
-            backgroundColor: "#3b82f6"
+            backgroundColor: "#3bdaf6ff"
           }]
         },
         options: { responsive: true, plugins: { legend: { display: false } } }

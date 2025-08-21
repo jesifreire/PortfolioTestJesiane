@@ -68,9 +68,9 @@ body {
     font-size: 2rem;
     font-weight: 700;
 }
-.blue { border-left: 6px solid #3b82f6; }
-.green { border-left: 6px solid #22c55e; }
-.purple { border-left: 6px solid #a855f7; }
+.blue { border-left: 6px solid #3bf6e6; }
+.green { border-left: 6px solid #e260e2; }
+.purple { border-left: 6px solid #c0e658; }
 .dashboard-main-row {
     display: flex;
     gap: 24px;
@@ -103,10 +103,10 @@ input, select {
 }
 input:focus, select:focus {
     outline: none;
-    border-color: #3b82f6;
+    border-color: #6967b8;
 }
 button {
-    background: #3b82f6;
+    background: #6967b8;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -147,7 +147,7 @@ ul li {
     font-size: 1rem;
 }
 ul li b {
-    color: #2563eb;
+    color: #3182eb;
 }
 @media (max-width: 900px) {
     .metrics-row, .dashboard-main-row, .dashboard-forms-row {
