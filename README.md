@@ -113,6 +113,12 @@ Para rodar:
 - 📚 [Documentação (Wiki)](https://github.com/jesifreire/PortfolioTestJesiane/wiki)
 - 🐞 [Bugs Reportados](https://github.com/jesifreire/PortfolioTestJesiane/issues)
 
+## 📑 Documentos de Teste
+
+- [Plano de Teste](./docs/plano-de-teste.pdf)
+- [Estratégia de Teste](./docs/estrategia-de-teste.pdf)
+
+
 ## Observações
 
 - O frontend funciona totalmente em memória/localStorage, sem necessidade de backend para uso básico.
