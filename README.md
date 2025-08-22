@@ -115,8 +115,8 @@ Para rodar:
 
 ## 📑 Documentos de Teste
 
-- [Plano de Teste](./docs/plano-de-teste.pdf)
-- [Estratégia de Teste](./docs/estrategia-de-teste.pdf)
+- [Plano de Teste](./docs/Plano e Estratégia de Testes Adaptada.pdf)
+- [Caso de Teste](./docs/Caso de Teste.pdf)
 
 
 ## Observações
