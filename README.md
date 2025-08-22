@@ -115,8 +115,8 @@ Para rodar:
 
 ## 📑 Documentos de Teste
 
-- [Plano de Teste](./docs/Plano e Estratégia de Testes Adaptada.pdf)
-- [Caso de Teste](./docs/Caso de Teste.pdf)
+- 📄 [Caso de Teste](https://github.com/jesifreire/PortfolioTestJesiane/blob/main/docs/Caso%20de%20Teste.pdf)
+- 📄 [Estratégia de Teste](https://github.com/jesifreire/PortfolioTestJesiane/blob/main/docs/Plano%20e%20Estrat%C3%A9gia%20de%20Testes%20Adaptada.pdf)
 
 
 ## Observações
